@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moda y Más</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header>
+    <h1>Moda y Más</h1>
+    <p>Deslumbra A Los Demas Con Tu Estilo.</p>
+  </header>
+
+  <!-- Galería de productos -->
+  <section id="productos">
+    <h2>Nuestros Productos</h2>
+    <div class="producto" onclick="changeProductDescription('chaqueta')">
+      <img src="https://files.oaiusercontent.com/file-OK7VtdZ5uDAlUqOcpqxtZTIf?se=2024-11-08T21%3A56%3A34Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D8b063211-3186-42e2-96e7-04397ea51709.webp&sig=Tz96jrusCyKER96amaWrhE%2BPukjwv9oSbCGaYBlzF/A%3D" alt="Chaqueta Puchaina">
+      <p>Chaqueta</p>
+    </div>
+    <div class="producto" onclick="changeProductDescription('camiseta')">
+      <img src="camiseta.jpg" alt="Camiseta Clásica">
+      <p>Camiseta Clásica</p>
+    </div>
+    <div class="producto" onclick="changeProductDescription('bolso')">
+      <img src="bolso.jpg" alt="Bolso Estilo Puchaina">
+      <p>Bolso Estilo Puchaina</p>
+    </div>
+  </section>
+
+  <!-- Descripción del producto -->
+  <section id="descripcionProducto">
+    <h3>Descripción del Producto</h3>
+    <p id="descripcion">Selecciona un producto para ver los detalles.</p>
+  </section>
+
+  <!-- Pie de página -->
+   <p>Siguenos en nuestras redes</p> <button><a href="https://www.instagram.com/moda_y_mas488/">instagram</a></button>
+   
+   
+  <footer>
+    <p>&copy; 2024 Moda y Más. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
